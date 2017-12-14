@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--默认主题色-->
+    <color name="nbbar_bg_blue">#4071dd</color>
+    <!--导航栏背景色-->
+    <color name="nbbar_bg">#fcfcfc</color>
+    <!--页面背景色-->
+    <color name="base_bg">#f5f5f5</color>
+    <!--消息界面背景色-->
+    <color name="message_bg">#e4e4eb</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_transparent">#7d000000</color>
+    <!--搜索背景色-->
+    <color name="searchbar_bg">#caa9ce</color>
+    <!--文本色-->
+    <color name="text_grey">#666666</color>
+    <color name="text_black">#333333</color>
+    <color name="text_blue">#3c80e6</color>
+    <!--线的颜色-->
+    <color name="line">#e0e0e0</color>
+    <!--列表点击效果-->
+    <color name="touch_bg_grey">#eeeeee</color>
+    <!--列表内容字体颜色，title默认为black-->
+    <color name="text_lightgrey">#999999</color>
+    <color name="red">#ff0000</color>
+    <color name="lightred">#99ff0000</color>
+    <color name="red_warning">#F3323B</color>
+
+    <color name="grey_b2b2b2">#B2B2B2</color>
+    <color name="blue_78d2f6">#78D2F6</color>
+    <color name="blue_01aaee">#01AAEE</color>
+    <color name="blue_00aaee">#00AAEE</color>
+    <color name="grey_f6f6f6">#f6f6f6</color>
+    <color name="grey_a5a5a5">#A5A5A5</color>
+    <color name="grey_dde1e7">#DDE1E7</color>
+</resources>

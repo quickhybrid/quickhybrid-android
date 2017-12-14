@@ -1,0 +1,87 @@
+<resources>
+
+    <!--自定义对话框进度条颜色-->
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/nbbar_bg_blue</item>
+    </style>
+
+    <!--有白色背景的对话框-->
+    <style name="quick_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/frm_dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ProgressHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.2</item>
+    </style>
+
+    <style name="ActionSheetStyleIOS7">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/frm_as_ios7_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/frm_as_ios7_other_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/frm_as_ios7_other_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/frm_as_ios7_other_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/frm_as_ios7_other_bt_single</item>
+        <item name="cancelButtonTextColor">@color/text_blue</item>
+        <item name="otherButtonTextColor">@color/text_blue</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">20sp</item>
+    </style>
+
+    <!--导航栏图片按钮-->
+    <style name="FrmNbBarImageBg">
+        <item name="android:layout_width">@dimen/frm_nb_ico_width</item>
+        <item name="android:layout_height">@dimen/frm_nb_ico_width</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--导航栏文字按钮-->
+    <style name="FrmNbBarTextBg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/frm_nb_ico_width</item>
+        <item name="android:minWidth">@dimen/frm_nb_ico_width</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/frm_nb_ico_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!--角标-->
+    <style name="ListItemTip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--线-->
+    <style name="Line_Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <!--线-->
+    <style name="Line_Vertical">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+</resources>

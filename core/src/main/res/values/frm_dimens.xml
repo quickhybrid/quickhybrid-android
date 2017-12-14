@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--顶部导航栏高度-->
+    <dimen name="frm_nb_bg_height">50dp</dimen>
+    <!--顶部导航栏按钮宽高-->
+    <dimen name="frm_nb_ico_width">28dp</dimen>
+    <!--顶部导航栏标题大小-->
+    <dimen name="frm_nb_title_size">20sp</dimen>
+    <!--顶部导航栏副标题标题大小-->
+    <dimen name="frm_nb_title2_size">12sp</dimen>
+    <!--顶部导航栏按钮文字大小-->
+    <dimen name="frm_nb_ico_size">16sp</dimen>
+    <!--阴影高度-->
+    <dimen name="elevation_height">3dp</dimen>
+
+    <!-- 顶部导航栏tab宽高 -->
+    <dimen name="frm_nb_tab_width">90px</dimen>
+    <dimen name="frm_nb_tab_height">28px</dimen>
+    <!-- 顶部导航栏搜索框输入部分高度 -->
+    <dimen name="frm_nb_searchbar_input_height">34dp</dimen>
+
+    <!-- 搜索框整体高度 -->
+    <dimen name="frm_searchbar_bg_height">44dp</dimen>
+    <!-- 搜索框输入部分高度 -->
+    <dimen name="frm_searchbar_input_height">30dp</dimen>
+
+    <!--编辑信息最低高度-->
+    <dimen name="frm_edit_minheight">44dp</dimen>
+
+    <!--底部导航栏高度-->
+    <dimen name="frm_tab_height">60dp</dimen>
+
+    <!--双行列表主标题文字大小-->
+    <dimen name="frm_list_major_size">17sp</dimen>
+    <!--双行列表副标题以及日期文字大小-->
+    <dimen name="frm_list_minor_size">14sp</dimen>
+    <!--双行列表item高度-->
+    <dimen name="frm_list_item_height">65dp</dimen>
+    <!--双行列表 左侧图标宽高-->
+    <dimen name="frm_list_icon_size">45dp</dimen>
+</resources>

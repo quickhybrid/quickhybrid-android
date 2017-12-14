@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/frm_nb_bg_height"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/nbRoot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frm_nb_bg_height"
+        android:background="@color/nbbar_bg">
+
+        <com.quick.core.ui.widget.DrawableText
+            android:id="@+id/nbLeftTv1"
+            style="@style/FrmNbBarTextBg"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" />
+
+        <com.quick.core.ui.widget.NbImageView
+            android:id="@+id/nbLeftIv1"
+            style="@style/FrmNbBarImageBg"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/img_back_nav_btn" />
+
+        <com.quick.core.ui.widget.NbImageView
+            android:id="@+id/nbLeftIv2"
+            style="@style/FrmNbBarImageBg"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/nbLeftIv1"
+            android:src="@mipmap/img_exit_nav_btn"
+            android:visibility="gone"/>
+
+        <com.quick.core.ui.widget.NbTextView
+            android:id="@+id/nbLeftTv2"
+            style="@style/FrmNbBarTextBg"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/nbLeftIv1"
+            android:visibility="gone" />
+
+        <com.quick.core.ui.widget.NbImageView
+            android:id="@+id/nbRightIv1"
+            style="@style/FrmNbBarImageBg"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible" />
+
+        <com.quick.core.ui.widget.NbImageView
+            android:id="@+id/nbRightIv2"
+            style="@style/FrmNbBarImageBg"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/nbRightIv1"
+            android:visibility="invisible" />
+
+        <com.quick.core.ui.widget.NbImageView
+            android:id="@+id/nbRightIv3"
+            style="@style/FrmNbBarImageBg"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/nbRightIv2"
+            android:visibility="invisible" />
+
+        <com.quick.core.ui.widget.NbImageView
+            android:id="@+id/nbRightIv4"
+            style="@style/FrmNbBarImageBg"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/nbRightIv3"
+            android:visibility="invisible" />
+
+        <com.quick.core.ui.widget.NbTextView
+            android:id="@+id/nbRightTv1"
+            style="@style/FrmNbBarTextBg"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible" />
+
+        <com.quick.core.ui.widget.NbTextView
+            android:id="@+id/nbRightTv2"
+            style="@style/FrmNbBarTextBg"
+            android:layout_toLeftOf="@+id/nbRightTv1"
+            android:textSize="@dimen/frm_nb_ico_size"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/rl_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nbTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/frm_nb_title_size" />
+
+                <TextView
+                    android:id="@+id/nbTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/frm_nb_title2_size"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/img_arrow_black_down"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/nbCustomTitleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/line"
+            style="@style/Line_Horizontal"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+
+</LinearLayout>

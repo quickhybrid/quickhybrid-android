@@ -1,0 +1,245 @@
+<resources>
+    <!--百度开放平台申请Geocoding API服务的ak-->
+    <string name="baiduMap_ak">05L3eucgqqN58GceZsQOKluUFO01M1fT</string>
+
+    <string name="loading">正在加载…</string>
+    <string name="prompt">提示</string>
+    <string name="confirm">确定</string>
+    <string name="save">保存</string>
+    <string name="submit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清空</string>
+    <string name="close">关闭</string>
+    <string name="delete">删除</string>
+    <string name="finish">完成</string>
+    <string name="send">发送</string>
+    <string name="copy">复制</string>
+    <string name="search">搜索</string>
+    <string name="attribute">属性</string>
+    <string name="album">相册</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_time">选择时间</string>
+    <string name="pick_date">选择日期</string>
+    <string name="date_format">yyyy年MM月dd日 HH:mm</string>
+
+    <!--提示-->
+    <string name="toast_save_success">保存成功</string>
+    <string name="toast_save_fail">保存失败</string>
+    <string name="toast_operation_fail">操作失败</string>
+    <string name="toast_out_of_memory">内存不足</string>
+    <string name="toast_gps_not_open">GPS未开启</string>
+    <string name="toast_location_fail">获取位置失败</string>
+    <string name="toast_no_permission">权限未开启</string>
+    <string name="toast_submit_error">提交失败</string>
+    <string name="toast_data_parse_error">数据解析失败</string>
+    <string name="toast_serverdata_format_error">服务器响应数据格式错误</string>
+    <string name="toast_mobile_format_error">请输入正确的手机号码</string>
+    <string name="toast_email_format_error">请输入正确的邮箱地址</string>
+
+    <!--错误状态页-->
+    <string name="status_show_error">查看原因</string>
+    <string name="status_hide_error">隐藏原因</string>
+    <string name="status_server_error">网络请求失败</string>
+    <string name="status_server_timeout">网络请求超时</string>
+    <string name="status_page_error">页面加载失败</string>
+    <string name="status_return_error">返回参数不合法</string>
+    <string name="status_sever_error">服务器异常</string>
+    <string name="status_data_error">数据异常</string>
+    <string name="status_network_error">网络异常</string>
+    <string name="status_request_error">请求参数错误</string>
+    <string name="status_page_refresh">重新获取数据</string>
+    <string name="status_page_reload">点击重新加载</string>
+
+    <!--二维码扫描-->
+    <string name="scan_title">扫一扫</string>
+    <string name="scan_history_title">扫码历史</string>
+    <string name="scan_history">查看扫描历史</string>
+
+    <!--人员选择-->
+    <string name="choose_person_title">人员选择</string>
+    <string name="choose_person_checked">已选人员</string>
+    <string name="choose_person_exit">确认退出此操作吗？</string>
+    <string name="choose_person_confrim_clear">确定要清空所有数据么？</string>
+
+    <!--文件操作-->
+    <string name="file_name">文件</string>
+    <string name="file_not_found">文件未找到</string>
+    <string name="file_no_app_open">没有适合的程序打开此文件</string>
+    <string name="file_unknow_type">未知文件类型</string>
+    <string name="file_cannot_open">文件不能打开</string>
+    <string name="file_exist">文件已存在</string>
+    <string name="file_create_fail">文件无法创建</string>
+    <string name="file_sdcard">sd卡</string>
+    <string name="file_too_large">请选择小于50M的文件</string>
+    <string name="file_folder_create_fail">文件夹创建失败</string>
+    <string name="file_local">本地文件</string>
+    <string name="file_no_sdcard">sd卡路径获取失败</string>
+
+    <!--搜索页面-->
+    <string name="search_no_result">无搜索结果</string>
+    <string name="search_more_contacts">查看更多联系人</string>
+
+    <!--初始化页面-->
+    <string name="init_exit">移动应用管理平台数据异常，请检查配置信息是否正确！</string>
+    <string name="init_config_empty">请先在移动应用管理平台配置相关信息！</string>
+    <string name="init_server_error">数据请求失败，请检查网络！</string>
+    <string name="init_sdk_low">当前系统版本较低,程序运行可能存在未知问题,是否继续？</string>
+
+    <!--主界面-->
+    <string name="tab_message">消息</string>
+    <string name="tab_module">应用</string>
+    <string name="tab_contact">通讯录</string>
+    <string name="tab_personal">我的</string>
+
+    <!--个人信息界面-->
+    <string name="user_title">个人信息</string>
+    <string name="user_quit">您确定要退出登录吗？</string>
+    <string name="user_change_head">修改头像</string>
+    <string name="user_takepic">从相册选择</string>
+    <string name="user_change_success">修改成功</string>
+    <string name="user_add_none">未添加</string>
+    <string name="user_no_userinfo">用户信息为空</string>
+
+    <!--修改密码界面-->
+    <string name="pwd_change_title">修改密码</string>
+    <string name="pwd_input_old">请输入当前密码</string>
+    <string name="pwd_input_new">请输入新密码</string>
+    <string name="pwd_notsame_error">输入的新密码不一致</string>
+    <string name="pwd_same_error">新密码不能与旧密码相同</string>
+    <string name="pwd_change_fail">密码修改失败</string>
+
+    <!--我的文件界面-->
+    <string name="myfile_title">我的文件</string>
+    <string name="myfile_reverse">倒序</string>
+    <string name="myfile_order">顺序</string>
+    <string name="myfile_delete_confirm">文件删除后将无法恢复，确认删除？</string>
+    <string name="myfile_empty">无下载文件</string>
+    <string name="myfile_delete_fail">删除失败</string>
+    <string name="myfile_open">打开</string>
+    <string name="myfile_selected_count" formatted="false">共%1s条</string>
+
+    <!--消息界面-->
+    <string name="msg_empty">无消息</string>
+    <string name="msg_remove">移除</string>
+    <string name="msg_top">置顶</string>
+    <string name="msg_cancel_top">取消置顶</string>
+    <string name="msg_ingnore">忽略</string>
+    <string name="msg_no_history">暂无历史消息</string>
+
+    <!--组织架构-->
+    <string name="org_title">组织架构</string>
+    <string name="org_mydept">我的部门</string>
+    <string name="org_user_empty">无部门人员</string>
+    <string name="org_mygroup">我的群组</string>
+    <string name="org_syn">同步组织架构</string>
+    <string name="org_syning">正在同步组织架构，请稍等</string>
+    <string name="org_syn_now" formatted="false">上次同步时间:%1s，是否立即开始同步？</string>
+    <string name="org_syn_success">同步成功</string>
+    <string name="org_syn_fail">同步失败</string>
+    <string name="org_dept_data_error">部门信息异常</string>
+    <string name="org_user_data_error">人员信息异常</string>
+
+    <!--意见反馈-->
+    <string name="feedback_title">意见反馈</string>
+    <string name="feedback_is_empty">意见不能为空</string>
+    <string name="feedback_thanks">感谢您的反馈</string>
+
+    <!--应用界面-->
+    <string name="module_fav">常用应用</string>
+    <string name="module_other">其他应用</string>
+    <string name="module_manage">应用管理</string>
+    <string name="module_slogan">今天是yyyy年MM月dd日 </string>
+
+    <!--登录界面-->
+    <string name="login_title">登录</string>
+    <string name="login_hint_id">请输入用户名</string>
+    <string name="login_hint_pwd">请输入密码</string>
+    <string name="login_id_empty">帐号不能为空</string>
+    <string name="login_pwd_empty">密码不能为空</string>
+    <string name="login_remember">  记住密码</string>
+    <string name="login_fail">登录失败</string>
+    <string name="login_out">退出登录</string>
+    <string name="login_expired">账户过期，请重新登录</string>
+
+    <!--设置页面-->
+    <string name="set_title">设置</string>
+    <string name="set_account_save">帐号与安全</string>
+    <string name="set_clear_cache">清除缓存</string>
+    <string name="set_clear_cache_success">清除缓存成功</string>
+    <string name="set_clear_cache_confirm">确定清除缓存？</string>
+    <string name="set_clear_cache_prompt" formatted="false">预计清除%1s图片缓存和%2s文件缓存</string>
+    <string name="set_myfile">我的文件</string>
+    <string name="set_notification">新消息通知</string>
+
+    <!--通讯录详情页面 -->
+    <string name="contact_title">通讯录详情</string>
+    <string name="contact_show_detail">查看详情</string>
+    <string name="contact_current">最近联系人</string>
+    <string name="contact_select_num">选择号码</string>
+    <string name="contact_chatto_self_warning">您无法和自己聊天</string>
+    <string name="contact_phone">电话</string>
+    <string name="contact_message">短信</string>
+    <string name="contact_im">微消息</string>
+    <string name="contact_mail">邮件</string>
+    <string name="contact_mobile_num">手机</string>
+    <string name="contact_office_num">办公</string>
+    <string name="contact_short_num">短号</string>
+    <string name="contact_home_num">家庭</string>
+    <string name="contact_mail_address">邮箱</string>
+    <string name="contact_dept">部门</string>
+    <string name="contact_duty">职位</string>
+    <string name="contact_man">男</string>
+    <string name="contact_woman">女</string>
+    <string name="contact_call_phone">拨打电话</string>
+    <string name="contact_add_contact">保存到通讯录</string>
+
+    <!-- 下载提示 -->
+    <string name="download_set">下载设置</string>
+    <string name="download_title">下载文件</string>
+    <string name="download_status">下载状态</string>
+    <string name="download_pending">等待下载</string>
+    <string name="download_start">开始下载</string>
+    <string name="download_progress">正在下载</string>
+    <string name="download_retry">重新下载</string>
+    <string name="download_pause">下载暂停</string>
+    <string name="download_error">下载失败</string>
+    <string name="download_complete">下载完成</string>
+    <string name="download_warn">取消重复下载</string>
+
+    <!--来电提醒设置界面-->
+    <string name="coming_call_title">来电提醒</string>
+    <string name="coming_call_open">开启来电提醒</string>
+    <string name="coming_call_explain">开启后可显示来电通讯录信息</string>
+    <string name="coming_call_tips">提示：\n1.请在手机管家等类似安全软件或者系统设置中设置允许本应用自启动以及使用悬浮窗。\n2.本应用的后台进程被强制关闭本后无法来电提醒。</string>
+
+    <!-- 手势密码解锁页面 -->
+    <string name="gesture_forget_gesture">忘记手势密码</string>
+    <string name="gesture_changeuser">其他帐号登录</string>
+    <string name="gesture_relogin">重新登录，并且关闭手势密码</string>
+    <string name="gesture_default">请输入手势密码</string>
+    <string name="gesture_error" formatted="false">密码错误，您还可以再输入%s次</string>
+    <string name="gesture_error_relogin">您已输入错误5次，请重新登录</string>
+    <string name="gesture_correct">输入正确</string>
+    <string name="gesture_changge_user">切换帐号</string>
+    <string name="gesture_confirm_changge_user">切换账号后将退出当前登录</string>
+
+    <!-- 手势密码创建页面 -->
+    <string name="create_gesture_title">设置手势密码</string>
+    <string name="create_gesture_default">请绘制解锁图案</string>
+    <string name="create_gesture_correct">请再次绘制解锁图案</string>
+    <string name="create_gesture_less_error">至少连接4个点，请重新输入</string>
+    <string name="create_gesture_confirm_error">与上次绘制不一致，请重试</string>
+    <string name="create_gesture_confirm_correct">设置成功</string>
+    <string name="create_gesture_reset">重新设置</string>
+
+    <!--关于页面-->
+    <string name="about_title">关于</string>
+    <string name="about_update">有新版本可用</string>
+    <string name="update_now">立即更新</string>
+    <string name="update_downloading">正在下载更新中</string>
+    <string name="about_hasnew">检测到新版本</string>
+    <string name="about_noupdate">已是最新版本</string>
+    <string name="about_web">官网</string>
+    <string name="about_provision">服务条款</string>
+    <string name="about_copyright">Copyright © 2012&#8211;2015 QuickHybrid.All Rights Reserved</string>
+</resources>
