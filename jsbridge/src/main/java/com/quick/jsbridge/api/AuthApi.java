@@ -3,6 +3,7 @@ package com.quick.jsbridge.api;
 import android.webkit.WebView;
 
 
+import com.quick.core.util.jsbridge.QuickModulesUtil;
 import com.quick.jsbridge.bridge.Callback;
 import com.quick.jsbridge.bridge.IBridgeImpl;
 import com.quick.jsbridge.bridge.JSBridge;
@@ -47,7 +48,7 @@ public class AuthApi implements IBridgeImpl {
      * 参数：
      * jsApiList：自定义API数组[{'ui':'com.quick.jsbridge.UiApi'},{'util':'com.quick.jsbridge.UtilApi'}]
      */
-    public static void config(final IQuickFragment webLoader, WebView wv, final JSONObject param, final Callback callback) {
+    public static void config(final IQuickFragment webLoader, final WebView wv, final JSONObject param, final Callback callback) {
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -59,11 +60,10 @@ public class AuthApi implements IBridgeImpl {
                     JSONArray apiJsonArray = param.optJSONArray("jsApiList");
                     if (apiJsonArray != null) {
                         for (int i = 0; i < apiJsonArray.length(); i++) {
-                            JSONObject apiJson = apiJsonArray.optJSONObject(i);
-                            Iterator<String> iterator = apiJson.keys();
-                            while (iterator.hasNext()) {
-                                String apiName = iterator.next();
-                                String apiPath = apiJson.getString(apiName);
+                            String apiName = apiJsonArray.optString(i);
+                            String apiPath = QuickModulesUtil.getProperties(wv.getContext(), apiName);
+
+                            if (apiPath != null && apiPath != "") {
                                 try {
                                     Class c = Class.forName(apiPath);
                                     JSBridge.register(apiName, c);
@@ -74,12 +74,13 @@ public class AuthApi implements IBridgeImpl {
                                     break;
                                 }
                             }
+
                             if (!falg) {
                                 break;
                             }
                         }
                     }
-                } catch (JSONException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                     falg = false;
                     callback.applyFail(e.toString());
