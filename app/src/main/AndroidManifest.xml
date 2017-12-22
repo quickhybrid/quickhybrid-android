@@ -48,6 +48,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--关于界面-->
+        <activity android:name="com.quick.quickhybrid.AboutActivity" />
     </application>
 
 </manifest>

@@ -65,7 +65,7 @@
         android:layout_weight="1"
         android:background="@drawable/frm_click_dialog_update_bg"
         android:gravity="center"
-        android:text="@string/update_now"
+        android:text="立即更新"
         android:textColor="@color/white"
         android:textSize="17sp" />
 
